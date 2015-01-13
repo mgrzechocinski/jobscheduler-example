@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "net.grzechocinski.android.jobscheduler_example"
-        minSdkVersion 10
+        minSdkVersion 19
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
@@ -22,4 +22,5 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:21.0.3'
     compile 'me.tatarka.support:jobscheduler:0.1.1'
+    compile 'com.jakewharton.timber:timber:2.5.0'
 }
