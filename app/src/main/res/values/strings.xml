@@ -2,6 +2,8 @@
 <resources>
 
     <string name="app_name">jobscheduler-example</string>
-    <string name="action_trigger">Trigger</string>
+    <string name="action_trigger_one">Trigger one</string>
+    <string name="action_trigger_periodic">Trigger periodic</string>
+    <string name="action_cancel_all_pending">Cancel all pending</string>
 
 </resources>

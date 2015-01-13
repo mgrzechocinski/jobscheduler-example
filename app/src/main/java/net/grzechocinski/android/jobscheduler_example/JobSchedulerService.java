@@ -33,6 +33,9 @@ public class JobSchedulerService extends JobService {
                 }
                 Timber.d("Finishing job");
                 jobFinished(jobParameters, false);
+                if(jobParameters.getJobId() == JobSchedulerManager.ONE_SHOT_JOB_ID){
+                    new JobSchedulerManager(getApplicationContext()).schedulePeriodic();
+                }
             }
         }).start();
 
